@@ -2,24 +2,38 @@
     margin: 0;
     padding: 0;
 }
+
 .cabecalho{
-   padding: 15px 15px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
 }
 
-.cartao{
+
+  .cartao{
     width: 260px;
-    height:200px;
-}
-.cartao-imagem{
-width: 100%;
-}
+    height: 200px;
+  }
 
-body{
- display: flex;
- flex-direction: column;
- min-height: 100vh;
-background-color: aqua;
-}
+  .cartao-imagem{
+    width: 100%;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: darkslategrey;
+  }
+  main{
+    flex: 1;
+  
+  }
+  .cabecalho-link{
+    color: darkcyan;
+  }
+  h1{
+    color: darkcyan;
+  }
